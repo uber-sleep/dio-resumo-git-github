@@ -25,3 +25,21 @@ Principais comandos Git e Github.
 |-------------|-------------|
 |git init | inicializa um repositorio ja existente no git |
 |git clone [url] | busca e clona um repositorio do github |
+
+### Slavando Alterações
+|Comandos | Explicação |
+|-------------|-------------|
+| git status | mostra o status dos arquivos no diretório atual |
+| git add [file] | adiciona o arquivo ao stage, prepara para o commit |
+| git add . | adiciona todos os arquivos nao modificados para a area de stage |
+| git commit -m "[descrição]" | faz o commit dos arquivos em stage |
+| git log | mostra todos os commits da branch atual |
+
+### Desfazendo Alterações
+|Comandos | Explicação |
+|-------------|-------------|
+| rm -rf .git | remove o diretorio .git do seu conteúdo a força |
+| git restore [file] | descarta todas as alterações feitas localmente |
+| git --amend -m "[mensagem corrigida]" | corrige a mensagem do último commit |
+|git commit --amend (:wq pra sair) | abre o editor de commit |
+
