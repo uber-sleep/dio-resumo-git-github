@@ -1,17 +1,12 @@
 
 # Comandos Git e Github
-
 Principais comandos Git e Github.
 
-
-## Documentação
-
+## 📂 Documentação
 - [Documentação Git](https://git-scm.com/docs/git/pt_BR)
 - [Documentação Github](https://docs.github.com/pt)
 
-
-
-## Resumo 
+## 📓 Resumo 
 ### Configurações Iniciais
 
 | Comandos  | Explicação |
@@ -47,3 +42,6 @@ Principais comandos Git e Github.
 | git reset --hard [commit]	| Desfaz o commit e descarta todas as alterações, revertendo para o estado do commit especificado |
 | git reset [file] | Remove o arquivo do stage, desfazendo as alterações no arquivo, mas mantendo as alterações nos arquivos locais |
 | git restore --staged [file] | Desfaz a adição do arquivo ao stage, revertendo para o estado anterior à adição |
+
+## 🔎 Referências:
+[Digital Inovation One](dio.me)
