@@ -41,5 +41,9 @@ Principais comandos Git e Github.
 | rm -rf .git | remove o diretorio .git do seu conteúdo a força |
 | git restore [file] | descarta todas as alterações feitas localmente |
 | git --amend -m "[mensagem corrigida]" | corrige a mensagem do último commit |
-|git commit --amend (:wq pra sair) | abre o editor de commit |
-
+| git commit --amend (:wq pra sair) | abre o editor de commit |
+| git reset --soft [commit]	| Desfaz o commit mantendo as alterações no stage |
+| git reset --mixed [commit] | Desfaz o commit e remove as alterações do stage, mantendo as alterações nos arquivos locais |
+| git reset --hard [commit]	| Desfaz o commit e descarta todas as alterações, revertendo para o estado do commit especificado |
+| git reset [file] | Remove o arquivo do stage, desfazendo as alterações no arquivo, mas mantendo as alterações nos arquivos locais |
+| git restore --staged [file] | Desfaz a adição do arquivo ao stage, revertendo para o estado anterior à adição |
